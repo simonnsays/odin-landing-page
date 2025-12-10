@@ -89,3 +89,35 @@ button {
     font-weight: 900;
     border: none;
 }
+
+.info-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-content > h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    margin: 0;
+    padding: 50px;
+}
+
+.items {
+    display: flex;
+    gap: 50px;
+    padding-bottom: 90px;
+}
+
+.item-holder {
+    width: 155px;
+    height: 155px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+}
+
+.item > p {
+    width: 155px;
+    font-size: 16px;
+    text-align: center;
+}
