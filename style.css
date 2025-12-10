@@ -13,8 +13,6 @@ footer {
     overflow: hidden;
 }
 
-
-
 .header-content,
 .hero-content,
 .info-content,
@@ -135,4 +133,35 @@ button {
     margin: 10px;
     align-self: flex-end;
     font-size: 24px;
+}
+
+.call-to-action {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.action-content {
+    margin: auto;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    padding: 50px 0;
+    border-radius: 10px;
+}
+
+.action-content > button {
+    border: 1px solid white ;
+    height: 35px;
+    padding: 0;
+}
+
+.text h6 {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.text p {
+    color: #e5e7eb;
 }
